@@ -18,5 +18,7 @@ fi
 ./rkImageMaker -RK29 RK3288UbootLoader_V2.30.10.bin Image/update.img update.img -os_type:androidos || pause
 echo "Making update.img OK."
 echo "Press any key to quit:"
-read -n1 -s key
+read -n1 -s key << EOF
+y
+EOF
 exit 0
