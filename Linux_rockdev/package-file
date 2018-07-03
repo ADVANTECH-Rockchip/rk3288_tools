@@ -6,6 +6,7 @@ bootloader	RK3288UbootLoader_V2.30.10.bin
 parameter	parameter
 misc		Image/misc.img
 kernel		Image/kernel.img
+resource     Image/resource.img
 boot        Image/boot.img
 recovery	Image/recovery.img
 system		Image/system.img
